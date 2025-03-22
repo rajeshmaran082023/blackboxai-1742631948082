@@ -1,0 +1,41 @@
+2025-03-22 08:19:23,959 - INFO - Starting Contact Book application
+2025-03-22 08:19:23,959 - INFO - Contacts file not found at contacts.json. Starting with empty contact book.
+2025-03-22 08:19:23,967 - ERROR - Application error: no display name and no $DISPLAY environment variable
+Traceback (most recent call last):
+  File "/project/sandbox/user-workspace/main.py", line 40, in main
+    app = ContactBookUI(contact_book)
+  File "/project/sandbox/user-workspace/ui.py", line 172, in __init__
+    self.root = tk.Tk()
+  File "/home/codespace/.python/current/lib/python3.10/tkinter/__init__.py", line 2299, in __init__
+    self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+_tkinter.TclError: no display name and no $DISPLAY environment variable
+2025-03-22 08:24:47,654 - INFO - Starting Contact Book application
+2025-03-22 08:24:47,654 - INFO - Contacts file not found at contacts.json. Starting with empty contact book.
+2025-03-22 08:24:47,723 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.17.0.2:8000
+2025-03-22 08:24:47,723 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-22 08:24:47,726 - INFO -  * Restarting with stat
+2025-03-22 08:24:47,831 - INFO - Starting Contact Book application
+2025-03-22 08:24:47,832 - INFO - Contacts file not found at contacts.json. Starting with empty contact book.
+2025-03-22 08:24:47,837 - WARNING -  * Debugger is active!
+2025-03-22 08:24:47,838 - INFO -  * Debugger PIN: 114-877-150
+2025-03-22 08:24:52,321 - INFO - Starting Contact Book application
+2025-03-22 08:24:52,322 - INFO - Contacts file not found at contacts.json. Starting with empty contact book.
+2025-03-22 08:25:15,038 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:15] "GET / HTTP/1.1" 200 -
+2025-03-22 08:25:17,897 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:17] "GET /api/contacts?q=[object%20Event] HTTP/1.1" 200 -
+2025-03-22 08:25:24,431 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-22 08:25:30,099 - INFO - Added new contact: Rajesh Kumar Sugumaran
+2025-03-22 08:25:30,100 - INFO - Successfully saved 1 contacts to storage
+2025-03-22 08:25:30,100 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:30] "POST /api/contacts HTTP/1.1" 200 -
+2025-03-22 08:25:30,572 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:30] "GET / HTTP/1.1" 200 -
+2025-03-22 08:25:31,304 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:31] "GET /api/contacts?q= HTTP/1.1" 200 -
+2025-03-22 08:25:32,072 - INFO - Starting Contact Book application
+2025-03-22 08:25:32,072 - INFO - Added new contact: Rajesh Kumar Sugumaran
+2025-03-22 08:25:32,072 - INFO - Successfully loaded 1 contacts from storage
+2025-03-22 08:25:32,655 - INFO - Starting Contact Book application
+2025-03-22 08:25:32,656 - INFO - Added new contact: Rajesh Kumar Sugumaran
+2025-03-22 08:25:32,656 - INFO - Successfully loaded 1 contacts from storage
+2025-03-22 08:25:33,299 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:33] "GET /api/contacts?q=[object%20Event] HTTP/1.1" 200 -
+2025-03-22 08:25:33,346 - INFO - 127.0.0.1 - - [22/Mar/2025 08:25:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
