@@ -42,3 +42,6 @@ _tkinter.TclError: no display name and no $DISPLAY environment variable
 2025-03-22 08:26:06,112 - INFO - Starting Contact Book application
 2025-03-22 08:26:06,113 - INFO - Added new contact: Rajesh Kumar Sugumaran
 2025-03-22 08:26:06,113 - INFO - Successfully loaded 1 contacts from storage
+2025-03-22 08:26:39,758 - INFO - 127.0.0.1 - - [22/Mar/2025 08:26:39] "GET / HTTP/1.1" 200 -
+2025-03-22 08:26:43,090 - INFO - 127.0.0.1 - - [22/Mar/2025 08:26:43] "GET /api/contacts?q=[object%20Event] HTTP/1.1" 200 -
+2025-03-22 08:26:49,227 - INFO - 127.0.0.1 - - [22/Mar/2025 08:26:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
